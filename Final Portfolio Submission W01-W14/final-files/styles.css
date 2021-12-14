@@ -1,0 +1,75 @@
+header,
+footer {
+    background-color: rgba(34, 100, 34, 0.5);
+    text-align: center;
+    font-weight: lighter;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+header,
+main,
+footer {
+    max-width: 850px;
+    margin: 2rem auto;
+}
+
+body {
+    font-family: sans-serif, Arial, Helvetica;
+    background-color: white;
+}
+
+main {
+    /* height: 200px; */
+
+}
+
+/* hr {
+    margin: -10px;
+} */
+
+h1,
+h2 {
+    font-weight: lighter;
+}
+
+img {
+    float: right;
+    border-radius: 0.5rem;
+    margin-top: 15px;
+    margin-right: 25px
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+.week {
+    font-weight: bold;
+    margin: 15px 0px 5px 0px;
+}
+
+a:link .mid-report {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+}
+
+hr {
+    width: 700px;
+}
+
+footer a:hover {
+    color: red;
+}
+
+.footer-updated {
+    color: brown;
+    font-size: 0.9rem;
+}
